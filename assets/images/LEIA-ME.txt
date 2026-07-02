@@ -1,0 +1,47 @@
+Como adicionar/trocar as imagens
+==================================
+
+JÁ APLICADAS (reais):
+  logo.png                   -> logo oficial (arquivo enviado pelo cliente)
+  hero.jpg                   -> foto de telhado Shingle Royal Sovereign (Viapol) — 1º slide do carrossel do topo
+  produto-shingle.jpg        -> foto Shingle Royal Sovereign, cor Golden Cedar (Viapol)
+  produto-vilhena-gres.png   -> linha de cores Vilhena Grês (fabricante)
+  produto-vilhena-max.png    -> linha de cores Vilhena Max (fabricante)
+
+  socio-danilo.jpg           -> foto do Danilo com fundo degradê profissional
+  socio-johnata.jpg          -> foto do Johnata com fundo degradê profissional
+                                 (fotos originais preservadas como
+                                 socio-danilo-original.jpg / socio-johnata-original.jpg)
+
+AINDA SEM FOTO PRÓPRIA (usando cor da marca + textura de telha):
+  produto-simonassi.jpg
+  produto-perkus.jpg
+  produto-concreto.jpg
+  produto-salva-tudo.jpg
+
+CARROSSEL DO TOPO (hero) — precisa de mais 2 fotos:
+  hero-02.jpg
+  hero-03.jpg
+  IMPORTANTE: precisa ser só a FOTO, sem arte/texto/logo por cima (tipo as
+  fotos da pasta obra-*). As 3 artes promocionais que vieram antes
+  (Tegonort, Vilhena Max, Simonassi) ficaram salvas como promo-*.jpg,
+  guardadas mas fora do carrossel, porque cortavam texto de forma
+  estranha nos dois formatos (vertical no PC, largo no celular).
+  O carrossel já está funcionando com a foto 1 (hero.jpg); as próximas
+  duas entram como 2º e 3º slide assim que forem salvas com esse nome.
+
+CARROSSEL "TRABALHOS REALIZADOS" (já aplicado, 5 fotos reais):
+  obra-01.jpg até obra-05.jpg
+
+  Pra adicionar uma 6ª foto (ou mais), salve como obra-06.jpg nesta pasta
+  e me avisa — só preciso adicionar mais um item no carrossel (1 linha de
+  código). Formato ideal: paisagem (mais larga que alta).
+
+Para adicionar/trocar qualquer imagem, salve o arquivo NESTA pasta com o
+nome exato acima — o site pega automaticamente, sem precisar mexer no
+código. Tamanho recomendado: pelo menos 1000px no lado maior, JPG ou WebP.
+Para as fotos dos sócios, o ideal é foto de rosto/meio corpo, bem
+iluminada, formato retrato (mais alta do que larga).
+
+Observação: o produto "Piso Drenante" foi removido do site a pedido do
+cliente.

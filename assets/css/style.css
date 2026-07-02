@@ -506,6 +506,9 @@ p { margin: 0; }
   margin: 0;
 }
 .tira-parceiros__lista li {
+  display: flex;
+  align-items: center;
+  height: 30px;
   font-family: var(--fonte-display);
   font-weight: 600;
   font-size: 1.02rem;
@@ -515,6 +518,24 @@ p { margin: 0; }
   transition: opacity 0.2s;
 }
 .tira-parceiros__lista li:hover { opacity: 1; color: var(--terracota-escura); }
+
+.tira-parceiros__link {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  cursor: pointer;
+}
+
+.tira-parceiros__lista img {
+  height: 100%;
+  width: auto;
+  max-width: 130px;
+  object-fit: contain;
+  filter: grayscale(1);
+  opacity: 0.65;
+  transition: filter 0.25s, opacity 0.25s;
+}
+.tira-parceiros__lista li:hover img { filter: grayscale(0); opacity: 1; }
 
 /* ---------- Sobre ---------- */
 
@@ -680,8 +701,8 @@ p { margin: 0; }
   background-position: center;
 }
 .produto-card__midia.midia--shingle { background-image: url("../images/produto-shingle.jpg"); }
-.produto-card__midia.midia--vilhena-gres { background-image: url("../images/produto-vilhena-gres.png"); }
-.produto-card__midia.midia--vilhena-max { background-image: url("../images/produto-vilhena-max.png"); background-color: #2b2622; }
+.produto-card__midia.midia--vilhena-gres { background-image: url("../images/produto-vilhena-gres.jpg"); }
+.produto-card__midia.midia--vilhena-max { background-image: url("../images/produto-vilhena-max.jpg"); }
 .produto-card__midia.midia--simonassi { background-image: url("../images/produto-simonassi.jpg"); }
 .produto-card__midia.midia--perkus { background-image: url("../images/produto-perkus.jpg"); }
 .produto-card__midia.midia--concreto { background-image: url("../images/produto-concreto.jpg"); }
